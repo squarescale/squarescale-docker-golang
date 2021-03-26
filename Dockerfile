@@ -1,4 +1,4 @@
-FROM golang:1.15-buster
+FROM golang:1.16-buster
 
 COPY gitconfig /root/.gitconfig
 COPY sshconfig /root/.ssh/config
